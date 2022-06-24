@@ -1,0 +1,16 @@
+body{
+    display: table;
+    background: url(../img/liliangmao.GIF) fixed repeat;
+}
+
+.shengming
+{
+    width: 900px;
+    height:600px;
+    background-color: aliceblue;
+    font-size: 47px;
+    font-family: "宋体";
+    margin-left: 300px;
+    line-height: 5px;
+    margin-top: 70px;
+}

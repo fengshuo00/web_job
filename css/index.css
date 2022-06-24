@@ -1,0 +1,279 @@
+body{
+    display: table;
+    background: url(../img/bg1.JPG) fixed repeat;
+    
+}
+
+a{
+    text-decoration:none;
+    cursor:pointer;
+    color: aliceblue;
+}
+/* 大背景板块 */
+.bg_0{
+    float: left;
+    padding: 0 60px 100px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 12px 0 rgba(255, 255, 255, 0.441);
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 1500px;
+    width: 1200px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+/* 头部 */
+.header{
+    position: relative;
+    padding: 20px 0 20px;
+    height: 220px;
+}
+/* 头部上方一部分 */
+.header_title{
+    position: relative;
+    height: 160px;
+    border-bottom :1px solid;
+    border-color:aliceblue;
+}
+/* 头部左边图片 */
+.lp{
+    height: 160px;
+    width: 200px;
+    float: left;
+}
+/* 头部右边图片 */
+.rp{
+    height: 160px;
+    width: 200px;
+    float: right;
+}
+/* 头部中间文字 */
+.header_word{
+    float: left;
+    font-size:70px;
+    font-weight:bold;
+    font-family:"宋体";
+    margin-left: 110px;
+    height: 120px; 
+    padding-top: 40px;
+    color: aliceblue;
+}
+/* 头部下方，也就是导航栏 */
+.header_ul{
+    height: 60px;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "楷体";
+}
+/* 导航栏 */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0);
+}
+ 
+li {
+    float: left;
+}
+ 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18.59px 83.8px;
+    text-decoration: none;
+}
+ 
+/*鼠标移动到选项上修改背景颜色 */
+li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+/* 回到顶端 */
+#totop{
+    position: fixed;
+    margin-top: 650px;
+    margin-left: 1300px;
+}
+/* 页脚 */
+.yejiaoqu{
+    float: left;
+    padding: 0 100px 5px;
+    margin-left: 280px;
+    margin-top: 50px;
+    height: 50px;
+    width: 750px;
+    background: rgba(0, 0, 0, 0.892);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+/* 页眉 */
+.yemeiqu{
+    float: left;
+    padding: 0 100px 5px;
+    margin-left: 530px;
+    height: 50px;
+    width: 260px;
+    background: rgba(0, 0, 0, 0.892);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+/* 内容大板块 */
+.container{
+    position: relative;
+    padding: 20px 0 20px;
+    height: 1780px;
+}
+/* 百叶窗实现 */
+.sh{
+    width: 900px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+li{
+    list-style: none;
+}
+.sh li{
+    float: left;
+    position: relative;
+    width: 160px;
+    height: 250px;
+    transition: all .3s;
+}
+
+.sh:hover li{
+    width: 130px;
+}
+.sh li:hover{
+    width:300px;
+}
+/* 展示栏，四个，文档里有说  */
+.me{
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+
+}
+.like{
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.th{
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.trip{
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.mz{
+    float: left;
+    height: 250px;
+    width:200px;
+    background-color: rgba(240, 248, 255, 0.596);
+    border-radius: 20px;
+    margin-left: 32.5px;
+}
+.my{
+    float: left;
+    margin-left: 35px;
+    width: 900px;
+    height: 250px;
+    background-color: rgba(240, 248, 255, 0.596);
+    border-radius: 20px;
+
+}
+.lz{
+    float: left;
+    height: 250px;
+    width:900px;
+    background-color: rgba(240, 248, 255, 0.596);
+    border-radius: 20px;
+    margin-left: 32.5px;
+}
+.ly{
+    float: left;
+    margin-left: 35px;
+    width: 200px;
+    height: 250px;
+    background-color: rgba(240, 248, 255, 0.596);
+    border-radius: 20px;
+}
+.tz{
+    float: left;
+    height: 250px;
+    width:200px;
+    background-color: rgba(240, 248, 255, 0.596);
+    border-radius: 20px;
+    margin-left: 32.5px;
+}
+.ty{
+    float: left;
+    margin-left: 35px;
+    width: 900px;
+    height: 250px;
+    background-color: rgba(240, 248, 255, 0.596);
+    border-radius: 20px;
+
+}
+.trz{
+    float: left;
+    height: 250px;
+    width:900px;
+    background-color: rgba(240, 248, 255, 0.596);
+    border-radius: 20px;
+    margin-left: 32.5px;
+
+}
+.try{
+    float: left;
+    margin-left: 35px;
+    width: 200px;
+    height: 250px;
+    background-color: rgba(240, 248, 255, 0.596);
+    border-radius: 20px;
+
+}
+/* 免责 */
+#mianze {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: aliceblue;
+    font-family: "宋体";
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: aliceblue;
+}
+/* 作画一个圆 */
+.qiu{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: black;
+    text-align: center;
+    line-height: 88px;
+}
+
+/* 文本框 */
+.zi{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(255, 255, 255, 0.507);
+    border-radius: 10px;
+    height:100px ;
+    font-family: "宋体";
+}
